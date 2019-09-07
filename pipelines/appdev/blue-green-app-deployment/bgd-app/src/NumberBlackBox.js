@@ -1,7 +1,7 @@
 function NumberBlackBox() {
 };
 
-NumberBlackBox.prototype.myNumber = Math.floor(Math.random() * 3 * 1000); // generates a number between 0 and 1000
+NumberBlackBox.prototype.myNumber = Math.floor(Math.random() * 1000); // generates a number between 0 and 1000
 
 NumberBlackBox.prototype.getNumber = function() {
   return this.myNumber;
